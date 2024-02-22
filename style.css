@@ -1,0 +1,102 @@
+.header {
+    background-image: url('https://assets.channext.eu/microchip/2023/eoy/img/header.png');
+    background-repeat: no-repeat;
+    background-position: 70% 100%;
+    background-size: cover;
+    }
+    
+    .last-bg {
+    background-color: #1D345E;
+    }
+    
+    .bw {
+    max-height: 100%!important;
+    }
+    
+    .bw-tab {
+    min-height: 100%!important;
+    overflow: hidden; 
+    box-shadow: 0px 8px 25px 0px grey;
+    }
+        
+    p {
+   color:#1D345E;
+}
+    
+    h4 {
+    color: white;
+    }
+
+    h2, h3 {
+        color: #1D345E;
+    }
+
+    h1 {
+        color: #1D345E;
+        font-size: 55px!important;
+    }
+    
+    .trans-btn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white !important;
+    padding: 8px 7px!important;
+    }
+    
+    .trans-btn:hover {
+    background-color: transparent;
+    color: #42B6E5 !important;
+    border: 2px solid  #42B6E5 !important;
+    padding: 8px 7px!important;
+    }
+    
+    .block .over {
+    display: none;
+    }
+    
+    .block .not-over {
+    display: inline-block;
+    height: 630px;
+    }
+    
+    .block:hover .over {
+      display: inline-block;
+      background-color: #1D345E;
+    }
+    
+    .block:hover .not-over {
+    display:none;
+    }
+    
+
+    @media screen and (max-width: 1200px) {
+        h1 {
+            font-size: 45px!important;
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        h1 {
+            font-size: 40px!important;
+        }
+        
+.bitmap {
+min-width: 100%;
+}
+
+        .header {
+    background-position: 50% 100%;
+    }
+    
+            .block .over {
+    height: 630px;
+    }
+    
+        .block .not-over {
+    height: 630px;
+    }
+    }
+ 
+     @media screen and (max-width: 768px) {   
+    
+  }
